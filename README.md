@@ -21,6 +21,7 @@
 
 
 ## LAYOUT
+```
 /registration_system/
 ├── README.md                                        # Project documentation
 |
@@ -57,3 +58,4 @@
 │   │
 └── └── /config/                                     # Configuration files
         └── mysqli_connect.php                       # Database connection file
+```
