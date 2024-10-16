@@ -47,8 +47,6 @@ $result = $userModel->getAllUsers();
         </p>
     </main>
 
-    <?php include '../../includes/info-col.php'; ?>
-
     <?php include '../../includes/footer.php'; ?>
 
 </div>
