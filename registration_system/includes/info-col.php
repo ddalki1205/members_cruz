@@ -13,7 +13,7 @@
         <img src="../public/images/Twice.png" alt="Product Image" class="ad-image">
         <h1 class="ad-title">COMEBACK!</h1>
         <p class="ad-description">Get 50% off on your first ALBUM purchase. Limited time offer!</p>
-        <a href="https://youtu.be/QGCkDOkpWf8?si=lZgY1HeMPo5Y61KN" class="ad-button">Shop Now</a>
+        <a href="https://youtu.be/QGCkDOkpWf8?si=lZgY1HeMPo5Y61KN" target="_blank" class="ad-button">Shop Now</a>
     </div>
 </body>
 </html>
