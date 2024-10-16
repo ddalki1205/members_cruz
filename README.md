@@ -35,7 +35,9 @@
 │   │   └── web_design.css
 │   |
 │   ├── /images/                                     # Image files (if any)
-│   ├── /uploads/                                    # User-uploaded files (e.g., profile pictures) (not yet sure if i should add cos its too much)
+│   │   ├── Twice.png
+│   │   └── art.png
+│   │
 │   └── /assets/                                     # Other assets (fonts, etc.) TO be USED for final designs SOON!
 |
 ├── /src/                                            # Source code for web logic
@@ -53,6 +55,8 @@
 │   │
 │   ├── /includes/                                   # Reusable components (header, footer, etc.)
 │   │   ├── header.php
+│   │   ├── header_small.php
+│   │   ├── info-col.php
 │   │   ├── footer.php
 │   │   └── nav.php
 │   │
