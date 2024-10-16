@@ -5,12 +5,12 @@
   - Boss parang awa gaya-gaya lang nmn ako sa ibang tao sa github, pa approve pu plspslpslsplspls
 
 
-## Updates made
+## UPDATES MADE
   - User.php : separated the function inside "--register-view-users.php--" and put it in this file. (para di makalat!)
   - RegisterController.php : this controller/function came originally from "--register-page.php--" (para di makalat!)
 
 
-## Functionalities
+## FUNCTIONALITIES
   - User can register using first name, last name, email, and password
   - User cannot re-use registered emails!
 
