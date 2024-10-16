@@ -15,9 +15,10 @@
   - User cannot re-use registered emails!
 
 
-## TO ADD
+## TO ADD/FIX
   - Add pages for  hypertext transfer protocol (HTTP) standard response code (prolly 404, 408, or the common top 10)
   - Make password req atleast 1 num 1 symbol and should be 8 characters long
+  - Fix info column
 
 
 ## LAYOUT
