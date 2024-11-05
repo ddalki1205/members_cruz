@@ -26,6 +26,13 @@
 /registration_system/
 ├── README.md                                        # Project documentation
 |
+├── /includes/                                   # Reusable components (header, footer, etc.)
+│   ├── header.php
+│   ├── header_small.php
+│   ├── info-col.php
+│   ├── footer.php
+│   └── nav.php
+|
 ├── /public/                                         # Publicly accessible files
 │   ├── index.php                                    # Main entry point of the application
 │   |
@@ -39,28 +46,24 @@
 │   │   ├── Twice.png
 │   │   └── art.png
 │   │
-│   └── /assets/                                     # Other assets (fonts, etc.) TO be USED for final designs SOON!
+│   └── /assets/                                     # TO ADD! - Other assets (fonts, etc.) TO be USED for final designs SOON!
 |
 ├── /src/                                            # Source code for web logic
+│   │
+│   ├──/config/                                     # Configuration files
+│   │   └── mysqli_connect.php                       # Database connection file
+│   │
 │   ├── /controllers/                                # Controllers for handling logic 
 │   │   └── RegisterController.php
 │   │
 │   ├── /models/                                     # Database models
 │   │   └── User.php                                 # I removed this so register-view-users.php wont look super cluttered
 │   │
-│   ├── /views/                                      # Views (HTML files)
-│   │   ├── register-page.php
-│   │   ├── register-thanks.php
-│   │   ├── register-view-users.php
-│   │   └── about_us.php
-│   │
-│   ├── /includes/                                   # Reusable components (header, footer, etc.)
-│   │   ├── header.php
-│   │   ├── header_small.php
-│   │   ├── info-col.php
-│   │   ├── footer.php
-│   │   └── nav.php
-│   │
-└── └── /config/                                     # Configuration files
-        └── mysqli_connect.php                       # Database connection file
+└── └── /views/                                      # Views (HTML files)
+        ├── delete_user.php
+        ├── edit_user.php
+        ├── register-page.php
+        ├── register-thanks.php
+        ├── register-view-users.php
+        └── about_us.php
 ```
