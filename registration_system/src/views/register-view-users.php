@@ -29,13 +29,16 @@ $result = $userModel->getAllUsers();
         <?php if ($result): ?>
             <table>
                 <tr>
-                    <td><strong>Name</strong></td>
-                    <td><strong>Registered Date</strong></td>
+                    <th><strong>Name</strong></th>
+                    <th><strong>Registered Date</strong></th>
+                    <th><strong>Actions</strong></th>
                 </tr>
                 <?php while ($row = $result->fetch_assoc()): ?>
                     <tr>
                         <td><?= htmlspecialchars($row['fname'] . ' ' . $row['lname']); ?></td>
                         <td><?= htmlspecialchars($row['regdat']); ?></td>
+                        <td><a href="edit_users.php?id='.&row['user_id'].'">Edit</a>
+                        <a href="delete_users.php?id='.&row['user_id'].'">Delete</a></td>
                     </tr>
                 <?php endwhile; ?>
             </table>

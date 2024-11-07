@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 
 <body class="body">
-      
+
         <main class="main-content">
             <h2 class="main-heading">About Us</h2>
             <p class="main-paragraph">Welcome to my php working registration system! BOOM PANIS LIWANAG</p>
