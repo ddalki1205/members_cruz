@@ -41,7 +41,7 @@
                     echo '<a class="nav-link" href="../src/views/register-view-users.php">Registered Users</a>';
                 }
             }else{ // display users na idedelete
-                $q = "SELECT CONCAT(fname, ' ', lname) FROM users WHERE id=$id";
+                $q = "SELECT CONCAT(fname, ' ', lname) FROM users WHERE user_id = $id";
                 $result = @mysqli_query($dbconnect, $q);
                 if (mysqli_num_rows($result) == 1){
                     $row = mysqli_fetch_array($result, MYSQLI_NUM);
@@ -50,7 +50,7 @@
                         <form action="delete_user.php" method="post">
                         <input id = "submit-yes" type="submit" name="sure" value="Yes">
                         <input id = "submit-no" type="submit" name="sure" value="No">
-                        <input type="hidden" name="id" value="'.$id.'>
+                        <input type="hidden" name="id" value=".$id.">
                         </form>
                     ';
                 }else{ //not valid id, no user found

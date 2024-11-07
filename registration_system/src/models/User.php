@@ -18,7 +18,7 @@ class User {
 
 
     public function getAllUsers() {
-        $query = "SELECT fname, lname, DATE_FORMAT(registration_date, '%M %d, %Y') AS regdat, id FROM users ORDER BY registration_date ASC";
+        $query = "SELECT fname, lname, DATE_FORMAT(registration_date, '%M %d, %Y') AS regdat FROM users ORDER BY registration_date ASC";
         $result = $this->db->query($query);
         return $result;
     }
